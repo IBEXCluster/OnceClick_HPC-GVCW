@@ -20,12 +20,14 @@ doi: https://doi.org/10.1101/2023.06.25.546420
 ## Steps: 
 
 1. Clone the repository into your HPC or HW platform
+   
    git clone --recursive 
 
-3. Singularity image file will be created using the following command:
+2. Singularity image file will be created using the following command:
+   
   singularity build BioApps.sif docker://ibexcluster/bioapps:v1.0
 
-4. 
+3. 
 
    
 
