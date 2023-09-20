@@ -1,0 +1,2 @@
+/ibex/scratch/projects/c2072/work/Singularity/rice_genome/rice_pipeline_demo/output/tmpBAM/ERS467814
+/ibex/scratch/projects/c2072/work/Singularity/rice_genome/rice_pipeline_demo/output/tmpBAM/ERS467860

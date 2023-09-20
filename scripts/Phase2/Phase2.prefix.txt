@@ -1,0 +1,10 @@
+IRGC_117282_PT3_trimmed_paired.1.fastq.gz
+IRGC_117539_PT3_trimmed_paired.1.fastq.gz
+IRGC_117620_PT3_trimmed_paired.1.fastq.gz
+IRGC_117913_PT4_trimmed_paired.1.fastq.gz
+IRGC_120999_PT5_trimmed_paired.1.fastq.gz
+IRGC_121121_PT5_trimmed_paired.1.fastq.gz
+IRGC_121124_PT5_trimmed_paired.1.fastq.gz
+IRGC_121152_PT6_trimmed_paired.1.fastq.gz
+IRGC_121465_PT7_trimmed_paired.1.fastq.gz
+IRGC_121839_PT9_trimmed_paired.1.fastq.gz
