@@ -9,3 +9,8 @@ The OneClick pipeline will generate the follownig sub-directories from this pare
 ├── SNPs_Var_Table
 ├── tmp
 └── VCF
+
+All the corresponding outputs will be generated in the respective sub-directories. 
+For example: 
+  Phase #1, the genome alignment BAM files will be created in BAM/ directory 
+  Phase #4, the SNPs per variant table will be generated in SNPs_Var_Table/ directory. 
