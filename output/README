@@ -1,0 +1,11 @@
+The OneClick pipeline will generate the follownig sub-directories from this parent directory (output): 
+├── BAM
+├── gVCF
+├── INDELs
+├── INDELs_per_Chr
+├── INDELs_Var_Table
+├── SNPs
+├── SNPs_per_Chr
+├── SNPs_Var_Table
+├── tmp
+└── VCF
