@@ -14,9 +14,9 @@ doi: https://doi.org/10.1101/2023.06.25.546420
  Using this one click, the 4 Phases of the rice genome workflow (https://github.com/IBEXCluster/Rice-Variant-Calling) will be executed automatically without manual processing. 
  
 ## Prerequisites 
- Singularity for executing our bio-container software stack
- MPI Library for parallel data processing across multiple-cores across the HPC or HW platform 
- Slurm scheduler for HPC platform. 
+ 1. Singularity for executing our bio-container software stack
+ 2. MPI Library for parallel data processing across multiple-cores 
+ 3. Slurm scheduler for HPC platform (and it's optional for high-end workstations). 
 
 ## Steps: 
 
