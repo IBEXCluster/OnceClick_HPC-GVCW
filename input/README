@@ -1,0 +1,9 @@
+The user needs to copy the RAW fastq.gz files in this parent directory. 
+The expected file format will be: `*.1.fastq.gz` and `*.2.fastq.gz`.
+For example: 
+  IRGC_117282_PT3_trimmed_paired.1.fastq.gz
+  IRGC_117282_PT3_trimmed_paired.2.fastq.gz
+
+  IRGC_121124_PT5_trimmed_paired.1.fastq.gz
+  IRGC_121124_PT5_trimmed_paired.2.fastq.gz
+   
