@@ -1,0 +1,12 @@
+This directory is the placeholder for reference genome sequence. 
+User needs to copy the required genome reference and index files in this directory.
+Here are the examples of expected files: 
+.
+├── Nipponbare_chr.dict
+├── Nipponbare_chr.fasta
+├── Nipponbare_chr.fasta.amb
+├── Nipponbare_chr.fasta.ann
+├── Nipponbare_chr.fasta.bwt
+├── Nipponbare_chr.fasta.fai
+├── Nipponbare_chr.fasta.pac
+└── Nipponbare_chr.fasta.sa
