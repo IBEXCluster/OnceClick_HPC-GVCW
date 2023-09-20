@@ -16,23 +16,38 @@ doi: https://doi.org/10.1101/2023.06.25.546420
 ## Prerequisites 
  Singularity for executing our bio-container software stack
  MPI Library for parallel data processing across multiple-cores across the HPC or HW platform 
+ Slurm scheduler for HPC platform. 
 
 ## Steps: 
 
-1. Clone the repository into your HPC or HW platform
+**1. Clone the repository into your HPC or HW platform**
    
-   git clone --recursive https://github.com/IBEXCluster/OnceClick_HPC-GVCW.git
+    git clone --recursive https://github.com/IBEXCluster/OnceClick_HPC-GVCW.git
+    
 
-2. Change to 
+**2. Change to ROOT directory**
 
     cd OneClick_HPC-GVCW/
     
-2. Singularity image file will be created using the following command:
+**3. Singularity image file will be created using the following command:**
    
-  singularity build BioApps.sif docker://ibexcluster/bioapps:v1.0
-
-3. 
-
+    singularity build BioApps.sif docker://ibexcluster/bioapps:v1.0
    
+**4. Prepare Input and Reference files**
+
+     The input and reference files will be prepared in the corresponding directories input/ and ref/ respectively. 
+     More informations are availble at input/README and ref/README for better understanding. 
+     
+
+**5. Execute any one of the script:**
+
+     For HPC platform: sbatch OneClick_for_HPC.sh
+     For high-end workstation: sh ./OneClick_for_Desktop.sh
+     
+
+# Disclaimer 
+
+This version is our preliminary **OneClick workflow** for testing. 
+In case of any issues, please contact me at nagarajan.kathiresan@kaust.edu.sa 
 
  
