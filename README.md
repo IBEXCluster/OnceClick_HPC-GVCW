@@ -1,6 +1,6 @@
 # One Click HPC-GVCW 
 
-HPC-based genome variant calling workflow (HPC-GVCW)
+## HPC-based genome variant calling workflow (HPC-GVCW)
 
 Yong Zhou, Nagarajan Kathiresan, Zhichao Yu, Luis F. Rivera, Manjula Thimma, Keerthana Manickam, Dmytro Chebotarov, Ramil Mauleon, Kapeel Chougule, Sharon Wei, Tingting Gao, Carl D. Green, Andrea Zuccolo, Doreen Ware, Jianwei Zhang, Kenneth L. McNally, Rod A. Wing
 
@@ -21,8 +21,12 @@ doi: https://doi.org/10.1101/2023.06.25.546420
 
 1. Clone the repository into your HPC or HW platform
    
-   git clone --recursive 
+   git clone --recursive https://github.com/IBEXCluster/OnceClick_HPC-GVCW.git
 
+2. Change to 
+
+    cd OneClick_HPC-GVCW/
+    
 2. Singularity image file will be created using the following command:
    
   singularity build BioApps.sif docker://ibexcluster/bioapps:v1.0
